@@ -13,6 +13,7 @@ jobs:
 
     env:
       DOCKER_IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/democyber:latest
+      
 
     steps:
       # Checkout the code
