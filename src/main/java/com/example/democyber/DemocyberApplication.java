@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemocyberApplication {
 
+    // private static final String GITHUB_TOKEN = "ghp_1234567890abcdef1234567890abcdef1234";
+
+    // FAUX secret pour le TP3 - Gitleaks doit l'attraper
+
     private static final String SECRET_TEST = "1234567890";
 
     public static void main(String[] args) {
@@ -16,7 +20,7 @@ public class DemocyberApplication {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello from Democyber 123!";
+        return "Helloo from Democyber 123!";
     }
 
 }
